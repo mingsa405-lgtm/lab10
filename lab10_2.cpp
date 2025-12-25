@@ -11,6 +11,7 @@ int main (){
 	string text;
 	dest<<"-------------------- BOOM ---------------------\n";
 	while(getline(source,text)){
+		dest<<text <<'\n';
 	    cout<<text<<'\n';
 	}
 	dest<<"-------------------- HA!! ---------------------";
